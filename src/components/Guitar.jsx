@@ -11,7 +11,7 @@ export default function Guitar({ guitar, addToCart }) {
       <div className="col-4">
         <img
           className="img-fluid img-zoom"
-          src={`/img/${image}.jpg`} // Display guitar image
+          src={`${process.env.PUBLIC_URL}/img/${image}.jpg`} // Display guitar image
           alt={`Image of ${name}`} // Accessible alternative text
         />
       </div>
